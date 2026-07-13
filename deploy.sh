@@ -35,6 +35,7 @@ cp -r "$TEMP_DIR"/* .
 # Add and commit
 git add .
 git commit -m "Deploy: Update GitHub Pages from $CURRENT_BRANCH" || echo "Nothing to commit"
+git push
 
 # Switch back to original branch
 git checkout "$CURRENT_BRANCH"
