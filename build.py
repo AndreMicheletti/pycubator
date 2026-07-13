@@ -51,9 +51,9 @@ def generate_slides(md_files):
             f.write(rendered_template)
 
 
-def generate_index(md_files):
+def generate_index(md_files, nccode_files):
     index_tmpl = get_tmpl('index.j2')
-    rendered_index = index_tmpl.render(slides=md_files)
+    rendered_index = index_tmpl.render(slides=md_files, nccode_slides=nccode_files)
 
     p = Path(DOCS_DIR, 'index.html')
     with p.open('w') as f:
@@ -75,10 +75,16 @@ def generate_exercises():
 def main():
     pre_clean()
 
+    def is_nccode(file_tuple):
+        return "nccode" in file_tuple[0]
+
     md_files = list(get_md_files())
 
+    ref_course = list(filter(lambda x: not is_nccode(x), md_files))
+    nccode_files = list(filter(is_nccode, md_files))
+
     generate_slides(md_files)
-    generate_index(md_files)
+    generate_index(ref_course, nccode_files)
     generate_exercises()
 
 
