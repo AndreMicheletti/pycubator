@@ -2,7 +2,7 @@
 set -e
 
 # Clean and build
-make clean && make build
+# make clean && make build
 
 # Get the current branch
 CURRENT_BRANCH=$(git rev-parse --abbrev-ref HEAD)
@@ -33,7 +33,7 @@ rm -rf *
 cp -r "$TEMP_DIR"/* .
 
 # Add and commit
-git add .
+git add -A
 git commit -m "Deploy: Update GitHub Pages from $CURRENT_BRANCH" || echo "Nothing to commit"
 git push
 
