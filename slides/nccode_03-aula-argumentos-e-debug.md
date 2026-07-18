@@ -36,12 +36,18 @@ Mais de um argumento:
 ```python
 def pergaminho_da_cura_dupla(nome1, nome2):
   print(f"Os alvos {nome1} e {nome2} foram curados em 10 hp!")
-```
 
-```python
+
 def pergaminho_da_bola_elemental(alvo1, alvo2, elemento):
   print(f"Os alvos {alvo1} e {alvo2} recebem 20 hp de dano do tipo {elemento}")
+
+# Chamando as funções
+
+pergaminho_da_cura_dupla("Andre", "Papai Noel")
+
+pergaminho_da_bola_elemental("Orc", "Cyclope", "Fogo")
 ```
+
 
 ---
 
@@ -168,6 +174,8 @@ Substitua no seu programa do simulador de batalha, para criar as variáveis:
 - defesa_monstro
 
 Todas elas recebem um valor gerado pela chamada para `criar_atributo`
+
+--
 
 ## Objetivo 4
 

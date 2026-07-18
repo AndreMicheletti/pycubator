@@ -1,0 +1,485 @@
+[
+    {
+        "label": "*",
+        "importPath": "utensils",
+        "description": "utensils",
+        "isExtraImport": true,
+        "detail": "utensils",
+        "documentation": {}
+    },
+    {
+        "label": "print_it",
+        "importPath": "fruits.apple",
+        "description": "fruits.apple",
+        "isExtraImport": true,
+        "detail": "fruits.apple",
+        "documentation": {}
+    },
+    {
+        "label": "print_apple",
+        "importPath": "fruits",
+        "description": "fruits",
+        "isExtraImport": true,
+        "detail": "fruits",
+        "documentation": {}
+    },
+    {
+        "label": "requests",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "requests",
+        "description": "requests",
+        "detail": "requests",
+        "documentation": {}
+    },
+    {
+        "label": "module_a",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "module_a",
+        "description": "module_a",
+        "detail": "module_a",
+        "documentation": {}
+    },
+    {
+        "label": "module_b",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "module_b",
+        "description": "module_b",
+        "detail": "module_b",
+        "documentation": {}
+    },
+    {
+        "label": "stuff",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "stuff",
+        "description": "stuff",
+        "detail": "stuff",
+        "documentation": {}
+    },
+    {
+        "label": "logging",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "logging",
+        "description": "logging",
+        "detail": "logging",
+        "documentation": {}
+    },
+    {
+        "label": "toolshed",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "toolshed",
+        "description": "toolshed",
+        "detail": "toolshed",
+        "documentation": {}
+    },
+    {
+        "label": "print_function",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "Report",
+        "importPath": "car_check",
+        "description": "car_check",
+        "isExtraImport": true,
+        "detail": "car_check",
+        "documentation": {}
+    },
+    {
+        "label": "izip_longest",
+        "importPath": "itertools",
+        "description": "itertools",
+        "isExtraImport": true,
+        "detail": "itertools",
+        "documentation": {}
+    },
+    {
+        "label": "interleave",
+        "importPath": "interleave",
+        "description": "interleave",
+        "isExtraImport": true,
+        "detail": "interleave",
+        "documentation": {}
+    },
+    {
+        "label": "unittest",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "unittest",
+        "description": "unittest",
+        "detail": "unittest",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Environment",
+        "importPath": "jinja2",
+        "description": "jinja2",
+        "isExtraImport": true,
+        "detail": "jinja2",
+        "documentation": {}
+    },
+    {
+        "label": "FileSystemLoader",
+        "importPath": "jinja2",
+        "description": "jinja2",
+        "isExtraImport": true,
+        "detail": "jinja2",
+        "documentation": {}
+    },
+    {
+        "label": "HTMLExporter",
+        "importPath": "nbconvert.exporters",
+        "description": "nbconvert.exporters",
+        "isExtraImport": true,
+        "detail": "nbconvert.exporters",
+        "documentation": {}
+    },
+    {
+        "label": "ClearOutputPreprocessor",
+        "importPath": "nbconvert.preprocessors",
+        "description": "nbconvert.preprocessors",
+        "isExtraImport": true,
+        "detail": "nbconvert.preprocessors",
+        "documentation": {}
+    },
+    {
+        "label": "re",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "re",
+        "description": "re",
+        "detail": "re",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "code-examples.modules-and-packages.imports1.main",
+        "description": "code-examples.modules-and-packages.imports1.main",
+        "peekOfCode": "a = 1\nfrom utensils import *\nprint(a)",
+        "detail": "code-examples.modules-and-packages.imports1.main",
+        "documentation": {}
+    },
+    {
+        "label": "eat_soup",
+        "kind": 2,
+        "importPath": "code-examples.modules-and-packages.imports1.utensils",
+        "description": "code-examples.modules-and-packages.imports1.utensils",
+        "peekOfCode": "def eat_soup():\n    return 'spoon'\ndef a():\n    return 'hi'",
+        "detail": "code-examples.modules-and-packages.imports1.utensils",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 2,
+        "importPath": "code-examples.modules-and-packages.imports1.utensils",
+        "description": "code-examples.modules-and-packages.imports1.utensils",
+        "peekOfCode": "def a():\n    return 'hi'",
+        "detail": "code-examples.modules-and-packages.imports1.utensils",
+        "documentation": {}
+    },
+    {
+        "label": "print_it",
+        "kind": 2,
+        "importPath": "code-examples.modules-and-packages.imports2.fruits.apple",
+        "description": "code-examples.modules-and-packages.imports2.fruits.apple",
+        "peekOfCode": "def print_it():\n    print('apple')",
+        "detail": "code-examples.modules-and-packages.imports2.fruits.apple",
+        "documentation": {}
+    },
+    {
+        "label": "foo",
+        "kind": 2,
+        "importPath": "code-examples.modules-and-packages.modules-are-singletones1.module_a",
+        "description": "code-examples.modules-and-packages.modules-are-singletones1.module_a",
+        "peekOfCode": "def foo():\n    stuff.fruits.append('Apple')",
+        "detail": "code-examples.modules-and-packages.modules-are-singletones1.module_a",
+        "documentation": {}
+    },
+    {
+        "label": "foo",
+        "kind": 2,
+        "importPath": "code-examples.modules-and-packages.modules-are-singletones1.module_b",
+        "description": "code-examples.modules-and-packages.modules-are-singletones1.module_b",
+        "peekOfCode": "def foo():\n    stuff.fruits.append('Banana')",
+        "detail": "code-examples.modules-and-packages.modules-are-singletones1.module_b",
+        "documentation": {}
+    },
+    {
+        "label": "fruits",
+        "kind": 5,
+        "importPath": "code-examples.modules-and-packages.modules-are-singletones1.stuff",
+        "description": "code-examples.modules-and-packages.modules-are-singletones1.stuff",
+        "peekOfCode": "fruits = ['Pineapple']",
+        "detail": "code-examples.modules-and-packages.modules-are-singletones1.stuff",
+        "documentation": {}
+    },
+    {
+        "label": "check_tool_exist",
+        "kind": 2,
+        "importPath": "code-examples.modules-and-packages.modules-are-singletones2.toolshed",
+        "description": "code-examples.modules-and-packages.modules-are-singletones2.toolshed",
+        "peekOfCode": "def check_tool_exist(tool):\n    have_tool = tools.get(tool)\n    if not have_tool:\n        logging.error('There is no {}'.format(tool))\n        return 0\n    return have_tool",
+        "detail": "code-examples.modules-and-packages.modules-are-singletones2.toolshed",
+        "documentation": {}
+    },
+    {
+        "label": "tools",
+        "kind": 5,
+        "importPath": "code-examples.modules-and-packages.modules-are-singletones2.toolshed",
+        "description": "code-examples.modules-and-packages.modules-are-singletones2.toolshed",
+        "peekOfCode": "tools = {\n    'screw': 5,\n    'hammer': 0\n}\ndef check_tool_exist(tool):\n    have_tool = tools.get(tool)\n    if not have_tool:\n        logging.error('There is no {}'.format(tool))\n        return 0\n    return have_tool",
+        "detail": "code-examples.modules-and-packages.modules-are-singletones2.toolshed",
+        "documentation": {}
+    },
+    {
+        "label": "Report",
+        "kind": 6,
+        "importPath": "code-examples.OOP.car-check.car_check",
+        "description": "code-examples.OOP.car-check.car_check",
+        "peekOfCode": "class Report(object):\n    pass",
+        "detail": "code-examples.OOP.car-check.car_check",
+        "documentation": {}
+    },
+    {
+        "label": "car1",
+        "kind": 5,
+        "importPath": "code-examples.OOP.car-check.car_check_scenario",
+        "description": "code-examples.OOP.car-check.car_check_scenario",
+        "peekOfCode": "car1 = Report('30-210-18')\ncar1.add_check('Wheels', True)\ncar1.add_check('Brakes', True)\ncar1.add_check('Lights', False)\ncar1.add_check('Gear', True)\nassert False == car1.passed()\nTEST_RESULT = \"\"\"\nResults for car #30-210-18\n* Wheels: OK\n* Brakes: OK",
+        "detail": "code-examples.OOP.car-check.car_check_scenario",
+        "documentation": {}
+    },
+    {
+        "label": "TEST_RESULT",
+        "kind": 5,
+        "importPath": "code-examples.OOP.car-check.car_check_scenario",
+        "description": "code-examples.OOP.car-check.car_check_scenario",
+        "peekOfCode": "TEST_RESULT = \"\"\"\nResults for car #30-210-18\n* Wheels: OK\n* Brakes: OK\n* Lights: Failed\n* Gear: OK\nNOT PASSED\n\"\"\".strip()\nprint(car1.render())\nassert TEST_RESULT == car1.render()",
+        "detail": "code-examples.OOP.car-check.car_check_scenario",
+        "documentation": {}
+    },
+    {
+        "label": "car2",
+        "kind": 5,
+        "importPath": "code-examples.OOP.car-check.car_check_scenario",
+        "description": "code-examples.OOP.car-check.car_check_scenario",
+        "peekOfCode": "car2 = Report('40-444-40')\ncar2.add_check('Wheels', True)\ncar2.add_check('Brakes', True)\ncar2.add_check('CO', True)\nassert car2.passed()\nTEST_RESULT = \"\"\"\nResults for car #40-444-40\n* Wheels: OK\n* Brakes: OK\n* CO: OK",
+        "detail": "code-examples.OOP.car-check.car_check_scenario",
+        "documentation": {}
+    },
+    {
+        "label": "TEST_RESULT",
+        "kind": 5,
+        "importPath": "code-examples.OOP.car-check.car_check_scenario",
+        "description": "code-examples.OOP.car-check.car_check_scenario",
+        "peekOfCode": "TEST_RESULT = \"\"\"\nResults for car #40-444-40\n* Wheels: OK\n* Brakes: OK\n* CO: OK\nPASSED\n\"\"\".strip()\nprint(car2.render())\nassert TEST_RESULT == car2.render()\nprint()",
+        "detail": "code-examples.OOP.car-check.car_check_scenario",
+        "documentation": {}
+    },
+    {
+        "label": "Point",
+        "kind": 6,
+        "importPath": "code-examples.OOP.point--magic-methods.point",
+        "description": "code-examples.OOP.point--magic-methods.point",
+        "peekOfCode": "class Point():\n    def __init__(self, x, y):\n        self.x = float(x)\n        self.y = float(y)\n    def distance(self, other):\n        return other.x - self.x, other.y - self.y\n    def __repr__(self):\n        return \"Point({}, {})\".format(self.x, self.y)\n    def __str__(self):\n        return \"({}, {})\".format(self.x, self.y)",
+        "detail": "code-examples.OOP.point--magic-methods.point",
+        "documentation": {}
+    },
+    {
+        "label": "p1",
+        "kind": 5,
+        "importPath": "code-examples.OOP.point--magic-methods.point",
+        "description": "code-examples.OOP.point--magic-methods.point",
+        "peekOfCode": "p1 = Point(3, 6)\np2 = Point(2, 4)\nprint(p2 - p1)\ndata = [p1, p2, p2 - p1]\nprint(data)",
+        "detail": "code-examples.OOP.point--magic-methods.point",
+        "documentation": {}
+    },
+    {
+        "label": "p2",
+        "kind": 5,
+        "importPath": "code-examples.OOP.point--magic-methods.point",
+        "description": "code-examples.OOP.point--magic-methods.point",
+        "peekOfCode": "p2 = Point(2, 4)\nprint(p2 - p1)\ndata = [p1, p2, p2 - p1]\nprint(data)",
+        "detail": "code-examples.OOP.point--magic-methods.point",
+        "documentation": {}
+    },
+    {
+        "label": "data",
+        "kind": 5,
+        "importPath": "code-examples.OOP.point--magic-methods.point",
+        "description": "code-examples.OOP.point--magic-methods.point",
+        "peekOfCode": "data = [p1, p2, p2 - p1]\nprint(data)",
+        "detail": "code-examples.OOP.point--magic-methods.point",
+        "documentation": {}
+    },
+    {
+        "label": "interleave",
+        "kind": 2,
+        "importPath": "code-examples.unit-testing.interleave",
+        "description": "code-examples.unit-testing.interleave",
+        "peekOfCode": "def interleave(a, b):\n    return [y for x in izip_longest(a, b) for y in x]",
+        "detail": "code-examples.unit-testing.interleave",
+        "documentation": {}
+    },
+    {
+        "label": "TestGettingStartedFunctions",
+        "kind": 6,
+        "importPath": "code-examples.unit-testing.interleave_test",
+        "description": "code-examples.unit-testing.interleave_test",
+        "peekOfCode": "class TestGettingStartedFunctions(unittest.TestCase):\n    def test_interleave(self):\n        cases = [\n            ([], [], []),\n            ([1], [9], [1, 9]),\n            ([8, 8, 3, 9], [1], [8, 1, 8, 3, 9]),\n            ([2], [7, 8, 9], [2, 7, 8, 9]),\n        ]\n        for a, b, expected in cases:\n            self.assertEqual(interleave(a, b), expected)",
+        "detail": "code-examples.unit-testing.interleave_test",
+        "documentation": {}
+    },
+    {
+        "label": "get_tmpl",
+        "kind": 2,
+        "importPath": "build",
+        "description": "build",
+        "peekOfCode": "def get_tmpl(name):\n    global templates\n    if not templates:\n        templates = Environment(loader=FileSystemLoader('templates/'))\n    return templates.get_template(name)\ndef extract_slide_title(md_file):\n    with md_file.open() as f:\n        for l in f:\n            if '#' in l:\n                return l.strip('# \\n')",
+        "detail": "build",
+        "documentation": {}
+    },
+    {
+        "label": "extract_slide_title",
+        "kind": 2,
+        "importPath": "build",
+        "description": "build",
+        "peekOfCode": "def extract_slide_title(md_file):\n    with md_file.open() as f:\n        for l in f:\n            if '#' in l:\n                return l.strip('# \\n')\ndef get_md_files():\n    p = Path(*SLIDES_DIR)\n    for md_file in sorted(p.iterdir()):\n        if md_file.suffix == '.md':\n            yield str(md_file.relative_to('docs')), md_file.with_suffix(",
+        "detail": "build",
+        "documentation": {}
+    },
+    {
+        "label": "get_md_files",
+        "kind": 2,
+        "importPath": "build",
+        "description": "build",
+        "peekOfCode": "def get_md_files():\n    p = Path(*SLIDES_DIR)\n    for md_file in sorted(p.iterdir()):\n        if md_file.suffix == '.md':\n            yield str(md_file.relative_to('docs')), md_file.with_suffix(\n                '.html').name, extract_slide_title(md_file)\ndef pre_clean():\n    p = Path(DOCS_DIR)\n    for i in p.glob('*.html'):\n        i.unlink()",
+        "detail": "build",
+        "documentation": {}
+    },
+    {
+        "label": "pre_clean",
+        "kind": 2,
+        "importPath": "build",
+        "description": "build",
+        "peekOfCode": "def pre_clean():\n    p = Path(DOCS_DIR)\n    for i in p.glob('*.html'):\n        i.unlink()\ndef generate_slides(md_files):\n    slide_tmpl = get_tmpl('slide.j2')\n    for md_file, html_file, title in md_files:\n        rendered_template = slide_tmpl.render(mdfile=md_file, title=title)\n        p = Path(DOCS_DIR, html_file)\n        with p.open('w') as f:",
+        "detail": "build",
+        "documentation": {}
+    },
+    {
+        "label": "generate_slides",
+        "kind": 2,
+        "importPath": "build",
+        "description": "build",
+        "peekOfCode": "def generate_slides(md_files):\n    slide_tmpl = get_tmpl('slide.j2')\n    for md_file, html_file, title in md_files:\n        rendered_template = slide_tmpl.render(mdfile=md_file, title=title)\n        p = Path(DOCS_DIR, html_file)\n        with p.open('w') as f:\n            f.write(rendered_template)\ndef generate_index(md_files, nccode_files):\n    index_tmpl = get_tmpl('index.j2')\n    rendered_index = index_tmpl.render(slides=md_files, nccode_slides=nccode_files)",
+        "detail": "build",
+        "documentation": {}
+    },
+    {
+        "label": "generate_index",
+        "kind": 2,
+        "importPath": "build",
+        "description": "build",
+        "peekOfCode": "def generate_index(md_files, nccode_files):\n    index_tmpl = get_tmpl('index.j2')\n    rendered_index = index_tmpl.render(slides=md_files, nccode_slides=nccode_files)\n    p = Path(DOCS_DIR, 'index.html')\n    with p.open('w') as f:\n        f.write(rendered_index)\ndef generate_exercises():\n    p = Path(*EXERCISES_DIR)\n    exporter = HTMLExporter()\n    exporter.register_preprocessor(ClearOutputPreprocessor(), enabled=True)",
+        "detail": "build",
+        "documentation": {}
+    },
+    {
+        "label": "generate_exercises",
+        "kind": 2,
+        "importPath": "build",
+        "description": "build",
+        "peekOfCode": "def generate_exercises():\n    p = Path(*EXERCISES_DIR)\n    exporter = HTMLExporter()\n    exporter.register_preprocessor(ClearOutputPreprocessor(), enabled=True)\n    for exercise in p.iterdir():\n        if exercise.suffix == '.ipynb':\n            html, _ = exporter.from_file(exercise.open())\n            with open(exercise.with_suffix('.html').name, 'w') as f:\n                f.write(html)\ndef main():",
+        "detail": "build",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "build",
+        "description": "build",
+        "peekOfCode": "def main():\n    pre_clean()\n    def is_nccode(file_tuple):\n        return \"nccode\" in file_tuple[0]\n    md_files = list(get_md_files())\n    ref_course = list(filter(lambda x: not is_nccode(x), md_files))\n    nccode_files = list(filter(is_nccode, md_files))\n    generate_slides(md_files)\n    generate_index(ref_course, nccode_files)\n    generate_exercises()",
+        "detail": "build",
+        "documentation": {}
+    },
+    {
+        "label": "templates",
+        "kind": 5,
+        "importPath": "build",
+        "description": "build",
+        "peekOfCode": "templates = None\nDOCS_DIR = 'docs'\nSLIDES_DIR = [DOCS_DIR, 'slides']\nEXERCISES_DIR = [DOCS_DIR, 'exercises']\ndef get_tmpl(name):\n    global templates\n    if not templates:\n        templates = Environment(loader=FileSystemLoader('templates/'))\n    return templates.get_template(name)\ndef extract_slide_title(md_file):",
+        "detail": "build",
+        "documentation": {}
+    },
+    {
+        "label": "DOCS_DIR",
+        "kind": 5,
+        "importPath": "build",
+        "description": "build",
+        "peekOfCode": "DOCS_DIR = 'docs'\nSLIDES_DIR = [DOCS_DIR, 'slides']\nEXERCISES_DIR = [DOCS_DIR, 'exercises']\ndef get_tmpl(name):\n    global templates\n    if not templates:\n        templates = Environment(loader=FileSystemLoader('templates/'))\n    return templates.get_template(name)\ndef extract_slide_title(md_file):\n    with md_file.open() as f:",
+        "detail": "build",
+        "documentation": {}
+    },
+    {
+        "label": "SLIDES_DIR",
+        "kind": 5,
+        "importPath": "build",
+        "description": "build",
+        "peekOfCode": "SLIDES_DIR = [DOCS_DIR, 'slides']\nEXERCISES_DIR = [DOCS_DIR, 'exercises']\ndef get_tmpl(name):\n    global templates\n    if not templates:\n        templates = Environment(loader=FileSystemLoader('templates/'))\n    return templates.get_template(name)\ndef extract_slide_title(md_file):\n    with md_file.open() as f:\n        for l in f:",
+        "detail": "build",
+        "documentation": {}
+    },
+    {
+        "label": "EXERCISES_DIR",
+        "kind": 5,
+        "importPath": "build",
+        "description": "build",
+        "peekOfCode": "EXERCISES_DIR = [DOCS_DIR, 'exercises']\ndef get_tmpl(name):\n    global templates\n    if not templates:\n        templates = Environment(loader=FileSystemLoader('templates/'))\n    return templates.get_template(name)\ndef extract_slide_title(md_file):\n    with md_file.open() as f:\n        for l in f:\n            if '#' in l:",
+        "detail": "build",
+        "documentation": {}
+    },
+    {
+        "label": "replace",
+        "kind": 2,
+        "importPath": "convert",
+        "description": "convert",
+        "peekOfCode": "def replace(match):\n    txt = match.group(1) \n    _outdent_re = re.compile(r'^(\\t|[ ]{1,%d})' % 12, re.M)\n    txt1 = _outdent_re.sub('',txt)\n    return '\\n```python\\n{}\\n```\\n'.format(txt1)\nimport sys\nfn = sys.argv[1]\nwith open(fn) as f:\n    print(_do_code_blocks(f.read()))",
+        "detail": "convert",
+        "documentation": {}
+    },
+    {
+        "label": "fn",
+        "kind": 5,
+        "importPath": "convert",
+        "description": "convert",
+        "peekOfCode": "fn = sys.argv[1]\nwith open(fn) as f:\n    print(_do_code_blocks(f.read()))",
+        "detail": "convert",
+        "documentation": {}
+    }
+]
