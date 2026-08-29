@@ -1,7 +1,7 @@
 DOCS=./docs
 
 setup: revealjs
-	@echo "Instalando as dependências..."
+	@echo "Instalando as dependencias..."
 	@pip install -r requirements.txt
 
 build: clean
