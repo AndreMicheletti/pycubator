@@ -41,9 +41,9 @@ class GameView(arcade.View):
         super().__init__()
 
         # Background image will be stored in this variable
-        self.game = GameData()
         self.background = arcade.load_texture("assets/bg.png")
         
+        self.game_data = GameData()
         self.running_turn = False
 
         # Variables that will hold sprite lists
@@ -72,9 +72,29 @@ class GameView(arcade.View):
 
     def on_update(self, delta_time: float):
         TweenManager.update(delta_time)
+
+        if self.running_turn:
+            return
         
-        if not self.running_turn:
-            self.game.executar_rodada()
+        rodada = self.game_data.executar_rodada()
+        print("TEVE RODADA? ", rodada)
+        if rodada is None:
+            return
+        if rodada == {}:
+            return
+
+        self.running_turn = True
+        dano = rodada.get("dano", 10)
+        alvo = rodada.get("alvo", "")
+        if str(alvo).lower() == "jogador":
+            if dano > 0: self.animate_hit(self.player_sprite)
+            self.animate_attack(self.enemy_sprite, movement=-50, callback=self.reseta_running)
+        else:
+            if dano > 0: self.animate_hit(self.enemy_sprite)
+            self.animate_attack(self.player_sprite, callback=self.reseta_running)
+
+    def reseta_running(self):
+        self.running_turn = False
 
     def on_draw(self):
         """
@@ -99,13 +119,13 @@ class GameView(arcade.View):
             sprite=sprite,
             property_name="alpha",
             target_val=0,
-            duration=0.2,
+            duration=0.1,
             easing_func=pytweening.easeInOutSine,
             callback=lambda: TweenManager.to(
                 sprite=sprite,
                 property_name="alpha",
                 target_val=255,
-                duration=0.2,
+                duration=0.3,
                 easing_func=pytweening.easeInOutSine,
                 callback=callback,
             ),
