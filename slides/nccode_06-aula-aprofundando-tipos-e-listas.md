@@ -1,4 +1,4 @@
-# Aula 05 - Aprofundando <code>tipos</code> e <code>listas</code>
+# Aula 06 - Aprofundando <code>tipos</code> e <code>listas</code>
 
 --
 
