@@ -98,3 +98,10 @@ opcao = ""
 ## Continue o programa \/
 
 ```
+
+--
+
+## Objetivos extra
+
+1. Adicione a opção de "Vender"
+2. Adicione a opção de "Ver detalhes do item"
