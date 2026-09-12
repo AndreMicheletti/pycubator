@@ -36,16 +36,16 @@ while opcao.lower() != "s":
     novo_nome = input("\nDigite o novo nome: ")
     nomes.append(novo_nome)
     print(f"Nome {novo_nome} adicionado!")
-  elif opcao = "b":
+  elif opcao == "b":
     print("TRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR\n" * 20)
-  elif opcao = "c":
+  elif opcao == "c":
     posicao = input("Digite a posição desejada para remover")
     posicao = int(posicao)
     removido = nomes.pop(posicao)
     print(f"Nome {removido} foi removido")
-  elif opcao = "v":
+  elif opcao == "v":
     print(f"Nomes:\n{nomes}")
-  elif opcao = "s":
+  elif opcao == "s":
     print("TCHAU!")
   else:
     print("Opção inválida!")

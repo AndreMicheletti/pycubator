@@ -120,3 +120,25 @@ Objetivo: Imprima na tela o último item da sua lista de inventario.
 Desafio: Você NÃO sabe qual é o tamanho da sua lista. Ela pode ter 3 itens ou 100 itens. Como mandar o Python pegar o último item não importando o tamanho dela?
 
 Missão de Pesquisa: Pesquise sobre "índices negativos em listas no Python". O que acontece se você pedir o item da posição -1?
+
+---
+
+# Colinha
+
+```python
+# lista vazia
+items = []
+# lista com elementos
+items = [10, 20, 30]
+nomes = ["miqueias", "betel"]
+# acessar item da lista
+items[0] # --> 10
+nomes[0] # --> "miqueias"
+nomes[1] # --> "betel"
+# adicionar ao final da lista
+items.append(40)
+nomes.append("nabucodonosor")
+# remover item do final da lista
+items.pop()
+removido = nomes.pop() # também da pra fazer assim, vai receber o valor removido na variável `removido`
+```
